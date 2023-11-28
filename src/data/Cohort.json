@@ -1,0 +1,42 @@
+[
+    {
+        "name":"Peace",
+        "age": 10,
+        "Job":"SE"
+        
+
+
+     },
+
+    {
+        "name":"Joy",
+        "age": 12,
+        "Job": "QE"
+    },
+
+    {
+        "name":"Love",
+        "age": 14,
+        "Job": "IT"
+    },
+
+    {
+        "name":"Peaceful",
+        "age": 16,
+        "Job": "DevOps"
+    },
+
+    {
+        "name":"Joyful",
+        "age": 18,
+        "Job": "Webdesigner"
+    },
+
+    {
+        "name":"Lovely",
+        "age": 20,
+        "Job": "Secuity Engr"
+    }
+    
+]
+

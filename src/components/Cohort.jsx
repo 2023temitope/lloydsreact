@@ -1,5 +1,8 @@
 //components name MUST be capitalised
 function Cohort (props) {
+    return(
+    <div>
+
     console.log("props:", props.props);
     console.log("Name:", props.name);
     console.log("Age:", props.age);
@@ -8,11 +11,11 @@ function Cohort (props) {
     console.log("weight:", props.weight);
     console.log("kid:", props.kid);
    
-    return(
+    
     
     
 
-<div>
+
 <p>Name1:(props.Peace)</p>
 <p>Name2:(props.Joy)</p>
 <p>Name3:(props.Love)</p>
@@ -22,8 +25,7 @@ function Cohort (props) {
 </div>
 );
 
-
-   
+  
 }
-    //lets you import the functio
+    //lets you import the function
     export default Cohort;
