@@ -1,6 +1,7 @@
-import KingsSolution from "./components/KingsSolution"
+//import KingsSolution from "./components/KingsSolution"////
 import './App.css';
-import KingsSolutions from "./components/KingsSolution";
+//import KingsSolutions from "./components/KingsSolution";
+import Counter from './components/state/Counter';
 //react component called App
 function App() {
 
@@ -8,12 +9,8 @@ function App() {
 
 
     < div >
-
-      <h1>ReactApp</h1>
-      <h2>Kings</h2>
-      <h3>Cohort</h3>
-      
-    <KingsSolutions/>
+            
+    <Counter/>
     
     </div >
   );
