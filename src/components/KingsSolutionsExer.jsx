@@ -25,14 +25,22 @@ function KingsSolutionsExer() {
 
 
   }
+  function handleChange(event) {
+    //setFilter(event.target.value);
+  }
   return (
     <div>
       <h2>Kings</h2>
-      
-      {kingscomponents}
+     {/* <input type="text" placeholder="Enter filter here" value={filter} onChange={handleChange} /> */}
+      {/*<input type="text" placeholder="Enter filter here"value={filter} onChange={e => setfilter(e.target.value)}/> */}
+
+  
+  
+  
+  {kingscomponents}
 
     </div>
-  )
+  );
 
 }
 export default KingsSolutionsExer ;
