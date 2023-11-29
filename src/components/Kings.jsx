@@ -11,10 +11,17 @@ function Kings (props) {
 
     </div> );
 }
-King.propTypes={
-    name:PropTypes.string.isrequired,
-    country:PropTypes.string.isrequired,
-    house:PropTypes.string.isrequired,
-    years:PropTypes.string.isrequired,
+Kings.propTypes={
+    name:PropTypes.string.isRequired,
+    country:PropTypes.string.isRequired,
+    house:PropTypes.string.isRequired,
+    years:PropTypes.string.isRequired,
 }
-export default King;
+export default Kings;
+
+
+
+
+
+
+

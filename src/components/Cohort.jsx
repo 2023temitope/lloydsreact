@@ -1,31 +1,34 @@
+import { useState } from "react";
+
 //components name MUST be capitalised
 function Cohort (props) {
+
+    const[filter,setFilter]= useState("");
+     console.log("Filter:", filter);
+     constcohortComponebts=[];
+      for (const colleague of cohort){
+        if (filter.length>0 && colleague.name ==filter) continue;
+        colleaguecomponents.push(
+            <Cohort key={colleague.name +""+ colleague.job}  name={collegue.name}  age={colleague.age}   job={colleague.job}/>)
+        ;
+      }
+
+
+      function handlechange (event){
+      console.log("Event:", event)
+      console.log("Target:", event.target)
+      console.log("Value:", event.target.value)
+
+      }
     return(
+    
     <div>
+        <h2>Cohort</h2>
+        <input type="text" value={filter} onChange={handlechange}/>
+        {CohortComponents}
+        </div>
+        );
+        } 
+        export default Cohort;
 
-    console.log("props:", props.props);
-    console.log("Name:", props.name);
-    console.log("Age:", props.age);
-    console.log("Job:", props.job);
-    console.log("height:", props.height);
-    console.log("weight:", props.weight);
-    console.log("kid:", props.kid);
-   
     
-    
-    
-
-
-<p>Name1:(props.Peace)</p>
-<p>Name2:(props.Joy)</p>
-<p>Name3:(props.Love)</p>
-<p>Name:(props.Peaceful)</p>
-<p>Name5:(props.Joyful)</p>
-<p>Name6:(props.Lovely)</p>
-</div>
-);
-
-  
-}
-    //lets you import the function
-    export default Cohort;
