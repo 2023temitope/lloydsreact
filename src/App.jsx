@@ -1,8 +1,11 @@
 
 import './App.css';
-import KingsSolutionsExer from './components/KingsSolutionsExer';
-import Counter from './components/state/Counter';
-
+import CatFacts from './components/CatFacts';
+import KingData from './components/KingData';
+import KingsSolutionCF from './components/KingsSolutionCF';
+import PostRequest from './components/PostRequest';
+//import Counter from './components/state/Counter';
+//importKingsDataLoad from'./
 //react component called App
 function App() {
 
@@ -10,10 +13,10 @@ function App() {
 
 
     < div >
-            
-    <Counter/>
-    <KingsSolutionsExer/>
-    
+
+      <CatFacts />
+      <KingsSolutionCF />
+      <PostRequest />
     </div >
   );
 }
